@@ -1,0 +1,36 @@
+@import '../../variables';
+
+button {
+  background-color: $primary-color;
+  border: 0px;
+  border-radius: $border-radius-base;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: $white;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.4s;
+
+  > svg {
+    margin-left: 70px;
+  }
+
+  &:hover {
+    background-color: darken($color: $primary-color, $amount: 5%);
+  }
+}
+
+.small-button {
+  height: 40px;
+}
+
+.large-button {
+  height: 60px;
+}
+
+.border-button {
+  border: 3px solid #ffffff;
+}

@@ -1,0 +1,12 @@
+@import 'src/variables.scss';
+
+.div {
+  width: 362px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    margin-bottom: 20px;
+  }
+}

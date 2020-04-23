@@ -1,17 +1,12 @@
 import React from 'react';
-import { Layout } from 'antd';
-
-import ButtonProcess from './components/ButtonProcess';
-
-import './App.scss';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Layout className="app-container">
-        <ButtonProcess />
-      </Layout>
-    </div>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 };
 

@@ -1,7 +1,14 @@
 @import 'variables';
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: 0px;
+}
+
 body {
-  background-color: $bg-color-page;
+  background-color: #eee;
 }
 
 #root {

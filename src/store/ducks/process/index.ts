@@ -1,5 +1,4 @@
 import { Reducer } from 'redux';
-import { act } from 'react-dom/test-utils';
 import { ProcessState, ProcessTypes } from './types';
 
 const INITIAL_STATE: ProcessState = {
